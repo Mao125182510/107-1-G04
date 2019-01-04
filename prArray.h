@@ -1,4 +1,4 @@
-void prArray(int seat[][8])
+void prArray(int seat[][8])//印出座位，有人就記一個 * 號，沒人就空白
 {
     for(int i=0;i<8;i++)
     {

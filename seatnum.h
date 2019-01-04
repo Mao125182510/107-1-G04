@@ -1,9 +1,9 @@
-void seatnum(int seat[][8],int *n)
+void seatnum(int seat[][9],int *n)
 {
     int m=0;
-    for(int i=0;i<8;i++)
+    for(int i=1;i<9;i++)
     {
-        for(int j=0;j<8;j++)
+        for(int j=1;j<9;j++)
         {
             if(seat[i][j]!=0)
             {
